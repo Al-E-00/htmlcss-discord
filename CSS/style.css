@@ -45,6 +45,12 @@ header>.container-hd {
     align-items: center;
 }
 
+.container-button-flex{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
 .button-small-white {
     padding: 0 0.8rem;
     border-radius: 50px;
