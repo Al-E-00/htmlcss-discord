@@ -79,6 +79,16 @@ header>.container-hd {
     height: 45px;
 }
 
+.right-side-final-block>.subscribe-btn {
+    padding: 0 0.4rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #8EA1E1;
+    color: white;
+    height: 25px;
+    font-size: .7rem;
+}
+
 .sec-navbar.center {
     width: 80%;
     min-width: 40%;
@@ -96,7 +106,8 @@ header>.container-hd {
 .sec-navbar.center>ul>li>a {
     text-decoration: none;
     color: white;
-    padding: 20px 10px;;
+    padding: 20px 10px;
+    font-size: .8rem;
     
 }
 
@@ -223,10 +234,8 @@ p {
 }
 
 .footer-content {
-    text-align: end;
     height: 70%;
     width: 80%;
-    border: 2px dotted white;
     width: 80%;
     margin: 0 auto;
 }
@@ -238,30 +247,83 @@ p {
     align-items: flex-start;
     justify-content: center;
     margin: 0 auto;
+    padding: 2rem 0;
 }
 
 
 .footer-section .block-right {
-    border: 2px dotted white;
     height: 100%;
-    width: 40%;
-    background-color: rgb(216, 122, 122);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lang-selection>img {
+    width: 20px;
+}
+
+.block-right>h3 {
+    font-size: 1.5rem;
+    text-align: initial;
+    color:#7289DA;
+}
+
+.lang-selection {
+    padding: 1rem 0;
+    font-size: .8rem;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    color: white;
+}
+
+.lang-selection>i {
+    font-size: .6rem;
+    color: white;
+}
+
+.lang-selection>span {
+    display: inline-block;
+    padding: 0 .2rem;
+}
+
+.social-selection{
+    display: flex;
+    gap: 1rem;
+    color: white;
 }
 
 .footer-section .little-blocks {
-    border: 2px dotted white;
     height: 100%;
-    width: calc(100% / 4);
-    background-color: rgb(104, 160, 182);
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.little-blocks>h4 {
+    font-size: .8rem;
+    color: #7289DA;
+}
+
+.little-blocks>ul>li{
+    list-style: none;
+    
+}
+
+.little-blocks>ul>li>a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: .3rem 0;
+    font-size: .7rem;
+    font-weight: 500;
 }
 
 .horizontal-block {
-    background-color: rgb(167, 242, 234);
-    height: 15%;
+    height: 12%;
     width: 80%;
     margin: 0 auto;
-    border: 2px dotted white;
-    border-top: 6px solid rgb(146, 255, 60);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,16 +335,7 @@ p {
     padding: 3px;
 }
 
-.left-rectangle {
-    width: 120px;
-    height: 60%;
-    background-color: rgb(195, 195, 195);
-    border: 2px dotted white;
-}
-.right-rectangle {
-    width: 100px;
-    height: 30%;
-    margin-right: 10px;
-    background-color: rgb(195, 195, 195);
-    border: 2px dotted white;
+
+.left-side-final-block>img {
+    width: 80px;
 }
