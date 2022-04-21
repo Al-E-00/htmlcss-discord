@@ -52,6 +52,17 @@ header>.container-hd {
     border: none;
     background-color: white;
     height: 35px;
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+}
+
+.button-small-white:hover {
+    color: #265EE8;
+    box-shadow: 2px 2px 5px black;
+    transition-property: color, box-shadow;
+    
+    transition-duration: .5s;
 }
 
 .button-normal-white {
@@ -108,8 +119,11 @@ header>.container-hd {
     text-decoration: none;
     color: white;
     padding: 20px 10px;
-    font-size: .8rem;
-    
+    font-size: .8rem; 
+}
+
+.sec-navbar.center>ul>li>a:hover {
+    text-decoration: underline;
 }
 
 header>.second-container {
@@ -341,7 +355,7 @@ p {
     width: 80px;
 }
 
-/* adding bonus part */
+/* added bonus part (wave-layout) */
 .wave-container {
     display: flex;
     flex-direction: column;
